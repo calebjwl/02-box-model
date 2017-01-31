@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: blue;
 }
 
 ul {
@@ -11,4 +10,40 @@ ul {
 
 * {
   box-sizing: border-box;
+}
+.profile {
+  background: green;
+  height: 100vh;
+  overflow: scroll;
+  /*width: calc(2 * 100% / 3);*/
+  padding: 1rem;
+}
+}
+.container {
+
+}
+.grid {
+  background: blue;
+  overflow: auto;
+}
+.grid__item {
+  background: yellow;
+  float: left;
+  margin: 1rem;
+  width: calc(100% / 2 - 1rem - 1rem);
+}
+.profile-info {
+  background: red;
+}
+.profile__picture {
+  float: left;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10%;
+}
+.profile__name {
+
+}
+.profile__username {
+
 }
