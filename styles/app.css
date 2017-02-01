@@ -40,24 +40,34 @@ ul {
   border-radius: 2%;
 }
 .profile-info {
-
   /*background: red;*/
-  /*margin: 0;*/
   height: 5rem;
+  padding: 0.5rem;
 }
+.profile-details {
+  /*background: blue;*/
+  /*padding: 0.5rem ;
+  border-top: rgba(131,131,131,.46) 0.1rem solid;*/
+}
+
+.profile__subsection {
+  background: yellow;
+  float: right;
+}
+
 .profile__picture {
   float: left;
   width: 4rem;
   height: 4rem;
   border-radius: 10%;
-  margin: 0.5rem;
-  margin-top: 0.1rem;
+  margin-right: 0.5rem;
 }
 .profile__name {
   margin: 0;
 }
 
 .profile__username {
+  font-size: 15px;
   color: #a7a7a7;
   margin: 0;
 }
@@ -68,25 +78,19 @@ ul {
   width: 1rem;
   background: turquoise;
   border-radius: 50%;
-  float: right;
-  margin: 0.5rem;
+  /*float: right;*/
 }
 
 .profile__language {
   font-size: 12px;
   display: inline-block;
   margin: 0;
-  float: right;
+  text-align: right;
 }
 
 .profile__repo {
   font-size: 12px;
-  float: left;
   display: inline-block;
   margin: 0;
-  border-top: rgba(131,131,131,.46) 0.1rem solid;
-}
-
-.profile-details {
-  margin: 0;
+  text-align: right;
 }
