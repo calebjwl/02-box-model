@@ -33,28 +33,24 @@ a {
 
 .title-text {
   color: white;
-  /*margin: 0;*/
   margin-top: 1rem;
   float: left;
 }
 
 .section {
-  /*background: #ff007a;*/
+  margin: 0;
 }
 
 .container {
-  /*background: yellow;*/
-  padding: 8rem;
   overflow: auto;
+  max-width: 60rem;
+  margin: 0 auto;
 }
 .grid {
-  /*background: blue;*/
   overflow: auto;
-  margin-top: -6rem;
 }
 
 .grid__item {
-  /*background: green;*/
   border-radius: 0.3rem;
   border: rgba(131,131,131,.46) 0.1rem solid;
   margin: 1rem;
@@ -64,11 +60,10 @@ a {
 }
 
 .profile {
-  /*background: purple;*/
+
 }
 
 .profile-info {
-  /*background: red;*/
   padding: 0.5rem;
   overflow: auto;
 }
@@ -78,7 +73,6 @@ a {
 }
 
 .profile__subsection {
-  /*background: yellow;*/
   float: right;
 }
 
@@ -105,7 +99,6 @@ a {
   width: 0.5rem;
   background: turquoise;
   border-radius: 50%;
-  /*float: right;*/
 }
 .profile__dot-red {
   display: inline-block;
@@ -113,7 +106,6 @@ a {
   width: 0.5rem;
   background: red;
   border-radius: 50%;
-  /*float: right;*/
 }
 
 .profile__language {
