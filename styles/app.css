@@ -44,7 +44,8 @@ a {
 
 .container {
   /*background: yellow;*/
-  padding: 6rem;
+  padding: 8rem;
+  overflow: auto;
 }
 .grid {
   /*background: blue;*/
