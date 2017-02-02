@@ -21,6 +21,8 @@ a {
   margin: 0;
   background: rgb(76,171,201);
   overflow: auto;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .nav__link {
@@ -41,7 +43,7 @@ a {
 
 .container {
   overflow: auto;
-  max-width: 62rem;
+  max-width: 60rem;
   margin: 0 auto;
 }
 .grid {
@@ -53,7 +55,7 @@ a {
   border: rgba(131,131,131,.19) 0.1rem solid;
   margin: 1rem;
   width: calc(100% / 3 - 1rem - 1rem);
-  min-width: 10rem;
+  min-width: 15rem;
   float: left;
 }
 
@@ -62,7 +64,7 @@ a {
 }
 
 .profile-info {
-  padding: 1rem;
+  padding: 0.7rem;
   overflow: auto;
 }
 .profile-details {
@@ -79,7 +81,7 @@ a {
   width: 4rem;
   height: 4rem;
   border-radius: 10%;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 .profile__name {
   margin: 0;
