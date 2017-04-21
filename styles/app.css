@@ -17,22 +17,28 @@ a {
   color: white;
   margin: 1rem;
 }
+
 .navbar{
-  margin: 0;
+  margin: 0 auto;
   background: rgb(76,171,201);
   overflow: auto;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  align-items: center;
+}
+
+.nav__content {
+  max-width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav__link {
   float: right;
-  margin-top: 1.5rem;
 }
 
 .title-text {
   color: white;
-  margin-top: 1rem;
   float: left;
 }
 
@@ -46,6 +52,7 @@ a {
   max-width: 60rem;
   margin: 0 auto;
 }
+
 .grid {
   overflow: auto;
 }
@@ -68,7 +75,7 @@ a {
   overflow: auto;
 }
 .profile-details {
-  padding: 0.7rem ;
+  padding: 0.7rem;
   border-top: rgba(131,131,131,.19) 0.1rem solid;
 }
 
@@ -80,7 +87,7 @@ a {
   float: left;
   width: 4rem;
   height: 4rem;
-  border-radius: 10%;
+  border-radius: 0.5rem;
   margin-right: 1rem;
 }
 .profile__name {
