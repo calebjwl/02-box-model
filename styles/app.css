@@ -11,3 +11,157 @@ ul {
 * {
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+}
+
+.navbar{
+  margin: 0 auto;
+  background: rgb(76,171,201);
+  overflow: auto;
+  align-items: center;
+}
+
+.nav__content {
+  max-width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__link {
+  float: right;
+}
+
+.title-text {
+  color: white;
+  float: left;
+}
+
+.section {
+  margin: 0;
+  overflow: auto;
+}
+
+.container {
+  overflow: auto;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.grid {
+  overflow: auto;
+}
+
+.grid__item {
+  border-radius: 0.3rem;
+  border: rgba(131,131,131,.19) 0.1rem solid;
+  margin: 1rem;
+  width: calc(100% / 3 - 1rem - 1rem);
+  min-width: 15rem;
+  float: left;
+}
+
+.profile {
+  margin: 0;
+}
+
+.profile-info {
+  padding: 0.7rem;
+  overflow: auto;
+}
+.profile-details {
+  padding: 0.7rem;
+  border-top: rgba(131,131,131,.19) 0.1rem solid;
+}
+
+.profile__subsection {
+  float: right;
+}
+
+.profile__picture {
+  float: left;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+.profile__name {
+  margin: 0;
+  font-size: 20px;
+}
+
+.profile__username {
+  font-size: 15px;
+  color: rgba(101,100,100,.5);
+  margin: 0;
+}
+
+.profile__language {
+  font-size: 12px;
+  display: inline-block;
+  margin: 0;
+  text-align: right;
+}
+
+.profile__repo {
+  font-size: 12px;
+  display: inline-block;
+  margin: 0;
+}
+
+/* Dots */
+
+.dot-HTML {
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  background: rgb(255,61,0);
+  border-radius: 50%;
+}
+.dot-CSS {
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  background: rgb(158,0,255);
+  border-radius: 50%;
+}
+.dot-javascript {
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  background: rgb(255,199,0);
+  border-radius: 50%;
+}
+.dot-python {
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  background: rgb(0,133,255);
+  border-radius: 50%;
+}
+.dot-ruby {
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  background: rgb(110,0,0);
+  border-radius: 50%;
+}
+.dot-dart {
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  background: rgb(0,184,167);
+  border-radius: 50%;
+}
+.dot-PHP {
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  background: rgb(12,0,144);
+  border-radius: 50%;
+}
